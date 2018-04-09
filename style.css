@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  color: grey;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #efefef
+}
+
+header {
+  /*background-image: url('Images/kimmy-background.jpg');*/
+  /*background-repeat: no-repeat;*/
+  color: grey;
+  height:20vh;
+  width: 100vh;
+  margin-bottom: 10%;
+}
+
+span {
+  float: right;
+  margin: 5% 2%;
+}
+
+article {
+  /*border: dotted #000;*/
+  color: grey;
+  margin-top: 35%;
+  margin-left: 5%;
+}
+
+h2{
+  margin: 0;
+}
+
+h4{
+  font-size: 2em;
+  margin: 4px;
+}
+
+p {
+  margin: 0 0 0 0;
+}
+
+.logo {
+  float:right;
+}
+
+.card-container {
+    height: 100vh;
+    width: 120%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: .% 5% 5% 5%;
+}
+
+.card {
+    background-repeat: no-repeat;
+    background-color: #fff;
+    overflow: scroll;
+    /*border: solid 2px #000;*/
+    height: 55%;
+    width: 20%;
+    display: inline-block;
+    margin: .4%;
+    text-align: left;
+    filter: grayscale(.8);
+    box-shadow:  1px 1px 1px grey;
+  }
+
+.card:hover {
+    filter: grayscale(0);
+    /*http://css3.bradshawenterprises.com/flip/
+    transform: rotateY(180deg);
+    box-shadow: -5px 5px 5px #aaa;
+    back-color: grey;*/
+}
+
+.button-logo {
+    margin: 5% 5% 0;
+}
+
+  .Quote {
+   /* border: solid;*/
+   background-color: black;
+   width: 80%;
+   align-self: center;
+}
+
+.card1 {
+  background-image: url('Images/Kimmy.jpg');
+  /*background-repeat: no-repeat;*/
+  background-size: 120%; 
+}
+
+.card2 {
+  background-image: url('Images/Lillian.jpg');
+  /*background-repeat: no-repeat;*/
+  background-size: 120%;
+}
+
+.card3 {
+  background-image: url('Images/LEMONADING.jpg');
+  /*background-repeat: no-repeat;*/
+  background-size: 100%;
+}
+
+.card4 {
+  background-image: url('Images/Jackie.jpg');
+  /*background-image: url('cindy-card.jpeg');*/
+    /*background-repeat: no-repeat;*/
+  background-size: 130%;
+}
+
+.card5 {
+  background-image: url('Images/donna-maria.jpeg');
+  /*background-repeat: no-repeat;*/
+  background-size: 100%;
+}
+
+.card6{
+  background-image: url('Images/cindy-card.jpeg');
+  /*background-repeat: no-repeat;*/
+  background-size: 100%;
+}
+
+.card7 {
+  background-image: url('Images/Gretchen-card.jpg');
+  /*background-repeat: no-repeat;*/
+  background-size: 100%;
+}
+
+.card8 {
+  background-image: url('Images/KImmy-waynre.jpeg');
+  /*background-repeat: no-repeat;*/
+  background-size: 100%;
+}
+
+}
