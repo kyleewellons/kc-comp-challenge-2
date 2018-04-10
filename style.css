@@ -91,24 +91,32 @@ p {
     display: flex;
     flex-wrap: wrap;
     margin: .% 5% 5% 5%;
+  
 }
 
 .card {
-  background-repeat: no-repeat;
-  background-color: #fff;
-  color: #fff;
-  height: 55%;
-  width: 24%;
-  display: inline-block;
-  margin: .4%;
-  text-align: left;
-  /*filter: grayscale(0);*/
-  box-shadow:  1px 1px 1px grey;
-}
+    background-repeat: no-repeat;
+    background-color: #fff;
+    color: #fff;
+    height: 55%;
+    width: 24%;
+    display: inline-block;
+    margin: .4%;
+    text-align: left;
+    box-shadow:  1px 1px 1px grey;
+
+  }
+    
 
 .card:hover {
   filter: grayscale(.8);
-  box-shadow:  1px 1px 1px grey;
+    box-shadow:  1px 1px 1px grey;
+  }
+    
+    /*http://css3.bradshawenterprises.com/flip/
+    transform: rotateY(180deg);
+    box-shadow: -5px 5px 5px #aaa;
+    back-color: grey;*/
 }
 
 .button-logo {
@@ -139,6 +147,8 @@ p {
 
 .card4 {
   background-image: url('Images/Jackie.jpg');
+  /*background-image: url('cindy-card.jpeg');*/
+
   background-size: 130%;
 }
 
@@ -163,6 +173,9 @@ p {
 }
 
 @media only screen and (max-width: 829px) {
+header {
+
+}
 
 .logo {
   margin: 1%;
@@ -173,18 +186,16 @@ header {
  height: 40vh;
 }
 
-ul {
+ul  {
   display: none;
 }
-
 .unbreak-logo {
     width:90%;
-}
+  }
 
 .card {
   width: 30%;
 }
-
 .button-logo {
     margin: 5% 2%;
     width: 20%;
@@ -205,10 +216,10 @@ ul {
 header {
  height: 30vh;
 }
-
 article {
-  height: 210px;
-  margin-top: 20%;
+  
+height: 210px;
+ margin-top: 20%;
 }
 
 .unbreak-logo {
@@ -220,7 +231,7 @@ article {
   width: 20%;
 }
 
-ul {
+ul  {
   display: none;
 }
 
@@ -235,11 +246,9 @@ ul {
  .card {
   width: 100%;
  }
-
 .unbreak-logo {
     width:100%;
-}
-
+  }
  .logo {
   width: 100%;
  }
