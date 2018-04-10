@@ -1,36 +1,68 @@
 * {
   box-sizing: border-box;
-  color: grey;
+  /*color: grey;*/
   font-family: 'Open Sans', sans-serif;
 }
 
 body {
-  background-color: #efefef
+  background-color: #efefef;
 }
 
 header {
-  /*background-image: url('Images/kimmy-background.jpg');*/
-  /*background-repeat: no-repeat;*/
-  color: grey;
+  border: 1px solid;
+  background-color: #882f8e;
   height:20vh;
-  width: 100vh;
-  margin-bottom: 10%;
+  width: 100%;
+  margin-bottom: 5%;
 }
 
-span {
+nav {
+  margin-top: 5%;
+  display:inline-block;
+
+}
+
+.lil-logos {
+  width: 15px;
+  height: 15px;
+  /*margin: .1%;*/
+}
+
+.nav-items {
+  display: inline-block;
+  margin-top: 9%;
+  color: yellow;
+}
+.views {
   float: right;
   margin: 5% 2%;
 }
 
-article {
-  /*border: dotted #000;*/
+.button-logo {
+  margin: 5% 2%;
+}
+
+
+.card-content {
+  border: dotted #000;
   color: grey;
-  margin-top: 35%;
+  margin-top: 30%;
   margin-left: 5%;
+  overflow: all;
+}
+
+
+h1 {
+  display:inline-block;
+  margin-right:70%;
 }
 
 h2{
   margin: 0;
+}
+
+.intro-bio {
+  color: #efefef;
 }
 
 h4{
@@ -42,34 +74,52 @@ p {
   margin: 0 0 0 0;
 }
 
+.unbreak-logo {
+  float: right;
+  margin-top: 1%;
+  width: 20%;
+}
+/*.admin-user {
+  float: right;
+  margin-top: 2%;
+}*/
+
 .logo {
-  float:right;
+  width: 75%;
+  margin-top: 10%;
 }
 
 .card-container {
     height: 100vh;
-    width: 120%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: .% 5% 5% 5%;
+   
+
 }
 
 .card {
     background-repeat: no-repeat;
     background-color: #fff;
-    overflow: scroll;
+    color: #fff;
     /*border: solid 2px #000;*/
     height: 55%;
-    width: 20%;
+    width: 24%;
     display: inline-block;
     margin: .4%;
     text-align: left;
-    filter: grayscale(.8);
+    /*filter: grayscale(0);*/
     box-shadow:  1px 1px 1px grey;
+
   }
+    
 
 .card:hover {
-    filter: grayscale(0);
+  filter: grayscale(.8);
+    box-shadow:  1px 1px 1px grey;
+  }
+    
     /*http://css3.bradshawenterprises.com/flip/
     transform: rotateY(180deg);
     box-shadow: -5px 5px 5px #aaa;
@@ -80,60 +130,132 @@ p {
     margin: 5% 5% 0;
 }
 
-  .Quote {
+.quote {
    /* border: solid;*/
-   background-color: black;
+   background-color: #efefef;
    width: 80%;
    align-self: center;
 }
 
 .card1 {
   background-image: url('Images/Kimmy.jpg');
-  /*background-repeat: no-repeat;*/
   background-size: 120%; 
 }
 
 .card2 {
   background-image: url('Images/Lillian.jpg');
-  /*background-repeat: no-repeat;*/
   background-size: 120%;
 }
 
 .card3 {
   background-image: url('Images/LEMONADING.jpg');
-  /*background-repeat: no-repeat;*/
   background-size: 100%;
 }
 
 .card4 {
   background-image: url('Images/Jackie.jpg');
   /*background-image: url('cindy-card.jpeg');*/
-    /*background-repeat: no-repeat;*/
+
   background-size: 130%;
 }
 
 .card5 {
   background-image: url('Images/donna-maria.jpeg');
-  /*background-repeat: no-repeat;*/
   background-size: 100%;
 }
 
 .card6{
   background-image: url('Images/cindy-card.jpeg');
-  /*background-repeat: no-repeat;*/
   background-size: 100%;
 }
 
 .card7 {
   background-image: url('Images/Gretchen-card.jpg');
-  /*background-repeat: no-repeat;*/
   background-size: 100%;
 }
 
 .card8 {
   background-image: url('Images/KImmy-waynre.jpeg');
-  /*background-repeat: no-repeat;*/
   background-size: 100%;
 }
 
+@media only screen and (max-width: 829px) {
+header {
+
+}
+
+.logo {
+  margin: 1%;
+  width:75%;
+}
+
+header {
+ height: 40vh;
+}
+
+ul  {
+  display: none;
+}
+.unbreak-logo {
+    width:90%;
+  }
+.card {
+  width: 30%;
+}
+.button-logo {
+    margin: 5% 2%;
+    width: 20%;
+}
+
+
+@media only screen and (max-width: 555px) {
+  .card {
+    width: 49%;
+
+}
+
+.logo {
+  margin: 1%;
+  width: 90%;
+}
+
+header {
+ height: 30vh;
+}
+article {
+  
+  height: 210px;
+  margin-top: 20%;
+}
+
+.unbreak-logo {
+    width:100%;
+  }
+
+.button-logo {
+  margin: 5% 2%;
+  width: 20%;
+}
+
+ul  {
+  display: none;
+}
+
+
+
+@media only screen and (max-width: 325px) {
+
+ul {
+  display: none;
+}
+
+ .card {
+  width: 100%;
+ }
+.unbreak-logo {
+    width:100%;
+  }
+ .logo {
+  width: 100%;
+ }
 }
